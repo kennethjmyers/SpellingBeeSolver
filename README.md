@@ -1,10 +1,12 @@
 # Spelling Bee Solver
 
+<p align="center">
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kennethjmyers/SpellingBeeSolver/main?labpath=SolverUI.ipynb)
-
 [![](https://img.shields.io/badge/Shiny-shinyapps.io-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue)](https://kennethjmyers.shinyapps.io/spellingbeesolver/)
+![Python](https://img.shields.io/badge/python-3.9-blue.svg)
 
-![Python](https://img.shields.io/badge/python-3.9-blue.svg) 
+</p> 
 
 [![](./images/spelling-bee-diagram.png)](https://kennethjmyers.shinyapps.io/spellingbeesolver/)
 
