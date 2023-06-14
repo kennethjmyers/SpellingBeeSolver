@@ -1,4 +1,4 @@
-import pickle
+import dill
 import pandas as pd
 
 
@@ -26,7 +26,7 @@ def solvePuzzle(puzzle):
   allFoundWords = dict()
   for letter in puzzle:
     with open(f'./Data/LetterTrees/{letter}.tree', 'rb') as treeFile:
-      thisRoot = pickle.load(treeFile)
+      thisRoot = dill.load(treeFile)
     foundWords = searchTree(node=thisRoot, puzzle=puzzle, foundWords=[], mandatoryLetter=mandatoryLetter)
     allFoundWords[letter] = foundWords
 
@@ -56,3 +56,10 @@ def flattenSolution(allFoundWords):
     flattened += allFoundWords[k]
   return flattened
 
+
+def findPangrams(puzzleValue, allFoundWords):
+  pangrams = []
+  for word in flattenSolution(allFoundWords):
+    if set(word) == set(puzzleValue):
+      pangrams.append(word)
+  return pangrams
