@@ -1,3 +1,5 @@
 name: py37
 dependencies:
   - python=3.7
+  - pandas
+  - itables
