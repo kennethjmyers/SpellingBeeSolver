@@ -19,9 +19,9 @@ The dictionary is broken down into 26 separate trees for each starting letter of
 
 In the dictionaries, words with fewer than 4 letters are ignored and so "The" and "Tap" would actually not be marked as terminating words and would be excluded from the final solution. 
 
-Each puzzle has 7 letters and the solver looks for the 7 trees corresponding to these letters. It then performs a depth-first-search on these 7 trees for words made up of only these letters and returns only words that have the center letter.
+Each puzzle has 7 letters and the solver looks for the 7 trees corresponding to these letters. It then performs a depth-first-search on these 7 trees *for words made up of only these letters*, ignoring paths with non-puzzle letters, and returns only words that have the center letter.
 
-It then subsets these down to the pangrams by finding the finding a matching set of letters between the puzzle and the solutions.
+It then subsets these down to the pangrams by finding a matching set of letters between the puzzle and the solutions.
 
 ## Caveats 
 
