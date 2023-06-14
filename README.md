@@ -1,6 +1,6 @@
 # Spelling Bee Solver
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kennethjmyers/SpellingBeeSolver/main?labpath=Solver.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kennethjmyers/SpellingBeeSolver/main?labpath=SolverUI.ipynb)
 
 ![](./images/spelling-bee-diagram.png)
 
