@@ -1,5 +1,7 @@
 # Spelling Bee Solver
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kennethjmyers/SpellingBeeSolver/main?labpath=Solver.ipynb)
+
 ![](./images/spelling-bee-diagram.png)
 
 ## What is this?
