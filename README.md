@@ -2,7 +2,11 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kennethjmyers/SpellingBeeSolver/main?labpath=SolverUI.ipynb)
 
-![](./images/spelling-bee-diagram.png)
+[![](https://img.shields.io/badge/Shiny-shinyapps.io-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue)](https://kennethjmyers.shinyapps.io/spellingbeesolver/)
+
+![Python](https://img.shields.io/badge/python-3.9-blue.svg) 
+
+[![](./images/spelling-bee-diagram.png)](https://kennethjmyers.shinyapps.io/spellingbeesolver/)
 
 ## What is this?
 
@@ -12,6 +16,12 @@ There were two goals to this:
 
 1. Efficiently identify possible solutions to a Spelling Bee puzzle 
 2. As a subset to the above, identify the pangrams, words that use all of the puzzle letters.
+
+## App
+
+There is a [Shiny App hosted on ShinyApp.io](https://kennethjmyers.shinyapps.io/spellingbeesolver/) that you can use to run the app. It is hosted on a free tier and it turns off if it has been idle for 15 minutes. You may need to wait a minute while the app restarts.
+
+You can also run the solver through the [SolverUI.ipynb](./SolverUI.ipynb) notebook which is hosted on [Binder](https://mybinder.org/v2/gh/kennethjmyers/SpellingBeeSolver/main?labpath=SolverUI.ipynb).
 
 ## How it works
 
